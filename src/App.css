@@ -1,0 +1,66 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9ea97; 
+    font-family: Arial, sans-serif;
+  }
+  /*style card*/
+  .Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #fff; 
+    width: 350px; 
+    text-align: center;
+  }
+  /*style image*/
+  .Img {
+    width: 100%;
+    max-height: 350px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+  /*name style*/
+  .Title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333; 
+  }
+  /*description + price style*/
+  .Text {
+    font-size: 18px;
+    margin: 15px;
+    color: #555; 
+  }
+  /*buy button style*/
+  .Button {
+    background-color: #fbb724; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /*hover color*/
+  .Button:hover {
+    background-color: #ffa41c; 
+  }
+  /*hello style*/
+  p {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: #2b2b2b; 
+  }
+  
